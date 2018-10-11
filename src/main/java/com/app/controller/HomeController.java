@@ -36,6 +36,7 @@ public class HomeController {
 	}
 	@RequestMapping("/msg")
 	public String showMsgA(){
+		System.out.println("gddg");
 		return "msgA";
 	}
 }
