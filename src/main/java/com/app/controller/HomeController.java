@@ -36,7 +36,11 @@ public class HomeController {
 	}
 	@RequestMapping("/msg")
 	public String showMsgA(){
+<<<<<<< HEAD
 		System.out.println("");
+=======
+		System.out.println("gddg");
+>>>>>>> branch 'master' of https://github.com/vinayk999/SpringSecurityApp.git
 		return "msgA";
 	}
 }
