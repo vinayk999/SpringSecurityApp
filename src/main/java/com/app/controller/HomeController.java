@@ -20,6 +20,8 @@ public class HomeController {
 	public String showEmp(){
 		return "EmployeePage";
 	}
+	
+	
 	@RequestMapping("/admin")
 	public String showAdmin(){
 		return "AdminPage";
