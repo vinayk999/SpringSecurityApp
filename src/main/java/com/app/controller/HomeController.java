@@ -34,4 +34,8 @@ public class HomeController {
 	public String showError(){
 		return "AccessDenied";
 	}
+	@RequestMapping("/msg")
+	public String showMsgA(){
+		return "msgA";
+	}
 }
